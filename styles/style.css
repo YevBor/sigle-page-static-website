@@ -41,11 +41,10 @@
   width: 730px;
   margin-left: 64px;
   display: flex;
-  justify-content: center;
   align-items: center;
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold;
+  font-weight: bold;  
 }
 
 .header__subtitle {
@@ -57,7 +56,7 @@
   margin-left: 64px;
 }
 
-.header__subtitle_link{
+.header__link{
   text-decoration: none;
 }
 
@@ -268,7 +267,7 @@ margin-top: 100px;
 
 }
 
-.section-subtitle__style_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   margin-top: 20px;
   margin-bottom: 0;
@@ -307,7 +306,7 @@ margin-top: 100px;
   flex-basis: 711px;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   margin-top: 0;
   margin-left: 0;
 }
