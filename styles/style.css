@@ -11,8 +11,6 @@
 
 .header {
   background-color: #f2f2f2;
-  background-size: ;
-
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -30,7 +28,6 @@
 
 .logo {
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
   height: 35px;
   width: 183px;
@@ -39,8 +36,10 @@
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  padding-left: 64px;
   z-index: 1;
 }
 
@@ -52,6 +51,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;  
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -62,7 +62,8 @@
   bottom: 0;
   left: 0;
   padding-left: 64px;
-  padding-bottom: 30px;  
+  padding-bottom: 30px;
+  z-index: 2;  
 }
 
 .header__link{
@@ -82,7 +83,7 @@
   z-index: 1;
 }
 
-.square-pic {
+.header__square-pic {
   margin-top: 64px;
   background-color: #2f80ed;
   width: 568px;
@@ -164,6 +165,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .table {
@@ -280,9 +282,8 @@ background-position:left bottom;
   color: white;
 }
 
-.section-title__style_theme_dark {
+.section-title_theme_dark {
   color: white;
-  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin-top: 0;
@@ -301,6 +302,8 @@ background-position:left bottom;
 }
 
 .footer {
+  box-sizing: border-box;
+  min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
@@ -309,9 +312,7 @@ background-position:left bottom;
 }
 
 .footer__columns {
-  box-sizing: border-box;
   width: 90%;
-  min-height: 350px;
   display: flex;
   justify-content: space-between;
 }
@@ -356,13 +357,10 @@ background-position:left bottom;
 }
 
 .footer__column-items{
-  margin-bottom: 16px;
   list-style-type: none;
 }
 
 .footer__column-links {
-  color: white;
-  text-decoration: none;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 16px;
@@ -370,7 +368,10 @@ background-position:left bottom;
   margin-top: 0;
   padding-left: 0;
 }
-
+.footer__column-nodecoration{
+  text-decoration: none;
+  color: white;
+}
 
 .footer__column_content_social {
   justify-content: flex-start;
