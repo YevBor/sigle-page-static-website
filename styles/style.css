@@ -175,7 +175,7 @@
   margin-bottom: 0;
 } */
 
-.feynman {
+/* .feynman {
 background-color: #f2f2f2;
 position: relative;
 min-height: 790px;
@@ -189,10 +189,10 @@ background-image: url(../images/feynman.png);
 background-repeat:no-repeat;
 background-size: 867px 637px;
 background-position:left bottom;
-}
+} */
 
 
-.feynman__title{
+/* .feynman__title{
   max-width: 648px;
   z-index: 1;
   line-height: 1.15;
@@ -200,17 +200,17 @@ background-position:left bottom;
   font-weight: bold;
   text-align: center;
   margin: 0;
-}
+} */
 
-.feynman__subtitle{
+/* .feynman__subtitle{
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   margin: 0;
   margin-top: 70px;
-}
+} */
 
-.feynman__link{
+/* .feynman__link{
   position: absolute;
   top: 50%;
   right: 0;
@@ -219,10 +219,10 @@ background-position:left bottom;
   line-height: 51px;
   font-size: 36px;
   color: black;
-}
+} */
 
 
-.kaufman {
+/* .kaufman {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -232,9 +232,9 @@ background-position:left bottom;
   padding-top: 90px;
   padding-bottom: 90px;
   overflow: hidden;
-}
+} */
 
-.kaufman__triangle {
+/* .kaufman__triangle {
   position: absolute;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
@@ -246,7 +246,7 @@ background-position:left bottom;
   margin-right: -210px;
   width: 877px;
   height: 877px;
-}
+} */
 
 .table__cell_theme_dark {
   width: 200px;
