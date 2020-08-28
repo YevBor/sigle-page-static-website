@@ -363,3 +363,53 @@ background-position:left bottom;
   background-repeat: no-repeat;
 } */
 
+/* div,h2,h4,p{
+  border: 1px red solid;
+} */
+.cards__image{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 43px;
+  margin-top: 60px;
+
+}
+
+/* .techniques {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+/* .cards{
+  box-sizing: border-box;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* .cards__title{
+  margin:0;
+} */
+
+/* .cards__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:100px;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  width: 240px;
+} */
+
+/* .cards__description{
+  text-align: center; 
+  padding-top: 16px;
+  margin: 0;
+} */
+/* .cards__item:nth-child(3n+3){
+  margin-right: 0;
+  margin-left:0;
+} */
+ß
