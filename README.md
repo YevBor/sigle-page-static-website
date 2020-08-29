@@ -1,6 +1,6 @@
 My first project "How to learn".
 
-The main reason of the project help me to undestand how HTML work with CSS hand by hand with creating complicated layouts.
+The main reason of the project help me to undestand how HTML work with CSS by creating complicated layouts.
 
 I use BEM methologie to make user friendly code for other programers. 
 
