@@ -6,3 +6,5 @@ I use BEM methologie to make user friendly code for other programers.
 
 
 Vision: Practice makes Perfect. It took me more than 30 hours maybe more, to write this code.
+
+https://yevbor.github.io/how-to-learn/
