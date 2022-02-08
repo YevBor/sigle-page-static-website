@@ -1,7 +1,5 @@
 # Portfolio project: "How to learn"
 
-*Read this in other languages:* [RU](https://github.com/naumch1k/how-to-learn/blob/master/README.RU.md)
-
 [GitHub Pages Link](https://yevbor.github.io/how-to-learn/)
 
 ## Description
