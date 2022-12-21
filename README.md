@@ -1,6 +1,6 @@
 # Portfolio project: "How to learn"
 
-[GitHub Pages Link](https://yevbor.github.io/how-to-learn/)
+[GitHub Pages Link](https://yevbor.github.io/sigle-page-static-website/)
 
 ## Description
 "How to learn" is a portfolio project created as a part of a study at [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program") - a single-page website about studying methods
